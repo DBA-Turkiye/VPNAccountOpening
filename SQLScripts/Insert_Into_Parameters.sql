@@ -1,0 +1,2 @@
+INSERT INTO PARAMETERS (NAME, TYPE) VALUES ('Permanent', 'VPNAccessPeriod');
+INSERT INTO PARAMETERS (NAME, TYPE) VALUES ('Temporary', 'VPNAccessPeriod');
