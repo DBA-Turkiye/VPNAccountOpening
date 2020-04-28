@@ -33,7 +33,7 @@ It can be used by any organization using VPN solutions and easily adapted to the
 You can find the summary of required actions in order to import BAW & RPA project below. 
 ## BAW - Business Automation Workflow
 ### Execute DB Scripts
-Execute scripts inside [SQL Scripts](https://github.com/DBA-Turkiye/DiagnoseCovid19/tree/master/SQL%20Scripts) folder. Be sure that you have followed the required steps to import Common Toolkit [repository](https://github.com/DBA-Turkiye/BAWCommonToolkit) and executed DB Scripts inside there.
+Execute scripts inside [SQL Scripts](https://github.com/DBA-Turkiye/VPNAccountOpening/tree/master/SQLScripts) folder. Be sure that you have followed the required steps to import Common Toolkit [repository](https://github.com/DBA-Turkiye/BAWCommonToolkit) and executed DB Scripts inside there.
 
 These scripts includes required parameters to be use inside this project such Sypmtoms for COVID-19, Gender, Medical Disease types, City, County information and some approval status parameters. 
 
@@ -43,7 +43,7 @@ For more details you can check: [Importing and Exporting Process Applications](h
 
 * Open IBM Workflow Center - https://YOURIP:PORT/WorkflowCenter/
 * Click Import Process App
-* Click Choose File to select Process Application file with .twx extension. You can download the latest version of the Process App from [BAW folder](https://github.com/DBA-Turkiye/DiagnoseCovid19/tree/master/BAW) under this repo.  
+* Click Choose File to select Process Application file with .twx extension. You can download the latest version of the Process App from [BAW folder](https://github.com/DBA-Turkiye/VPNAccountOpening/tree/master/BAW) under this repo.  
 * In the Import Process App window, a name and acronym have been specified based on information in the file you selected.
 * You can filter the messages by clicking Errors or Warnings.
 
@@ -54,4 +54,5 @@ For more details you can check: [Importing and Exporting Process Applications](h
 * Add a new Environment Variable with below parameters if not exists
   * Key: DataSourceName
   * Default: jdbc/IBMCloudDB2 - Be sure that you have defined Data source inside WAS as defined in the toolkit repository [documentation](https://github.com/DBA-Turkiye/BAWCommonToolkit#define-jdbc-resource-on-was).
+
 
